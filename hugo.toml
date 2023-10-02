@@ -12,53 +12,45 @@ DefaultContentLanguageInSubdir = true
     languageName = "English"
     [languages.en.params]
       introTitle = "Hey! I'm Antonius Malsam"
-      introSubtitle = "29 y/o DevOps engineer and software developer "
-      introPhoto = "/picture.jpg"
-      logo = "/blist-logo.png"
+      introSubtitle = "29 y/o DevOps engineer and software developer. My goal is to bring joy to the world of software development, by staying on top of the game and sharing my knowledge with my customers in an environment of openness and trust."
+    [languages.en.params.homepage.social]
+        title = "Follow me"
+        description = "I share my work in the blog section of this homepage you can find all the code on my public github."
     [[languages.en.menu.main]]
         name = "Blog"
         url = "blog"
         weight = 1
-
     [[languages.en.menu.main]]
-        name = "About"
-        url = "page/about/"
+        name = "CV"
+        url = "cv"
         weight = 2
-
     [[languages.en.menu.main]]
-        name = "Tags"
-        url = "tags"
+        name = "Impress"
+        url = "impress"
         weight = 3
-
-    [[languages.en.menu.main]]
-        name = "Top Post"
-        url = "/en/blog/emoji-support/"
-        weight = 4
 
   [languages.de]
     contentDir = "content/de" # Deutsch
     weight = 2
     languageName = "Deutsch"
-    title = "Blist (mehrsprachig)"
-    description = "Modernes Blog-Theme für Ihre Hugo-Site."
+    title = "AM Cloud Solutions"
     [languages.de.params]
-      introTitle = "Hallo, ich bin Katheryn Fox"
-      introSubtitle = "26-jährige Junior-Entwicklerin, die Spaß an sozialen Kartenspielen, Bloggen und Malen hat"
-      introPhoto = "/picture.jpg"
-      logo = "/blist-logo-de.png"
+      introTitle = "Hallo! Ich bin Antonius Malsam"
+      introSubtitle = "29-jähriger DevOps Engineer und Software-Entwickler. Ich möchte Freude in die Welt der Software-Entwicklung bringen, indem ich immer am Puls der Zeit bleibe und mein Wissen in einer Arbeitsatmosphäre aus Offenheit und Vertrauen mit meinen Kunden teile."
+    [languages.de.params.homepage.social]
+        title = "Folgt mir"
+        description = "Ich präsentiere meine Arbeit in Form der Blogbeiträge auf dieser Seite, ihr findet den Code auf meinem öffentlichen github Account." 
     [[languages.de.menu.main]]
         name = "Blog"
         url = "blog"
         weight = 1
-
     [[languages.de.menu.main]]
-        name = "Über mich"
-        url = "page/about/"
+        name = "Lebenslauf"
+        url = "lebenslauf"
         weight = 2
-
     [[languages.de.menu.main]]
-        name = "Tags"
-        url = "tags"
+        name = "Impressum"
+        url = "impressum"
         weight = 3
         
 #   [languages.dy]
@@ -69,7 +61,8 @@ DefaultContentLanguageInSubdir = true
 [params]
   # Enable the darkmode toggle in header
   darkModeToggle = true
-  
+  logo = "/logo-no-background.svg"
+  introPhoto = "/profilePic.jpg"
   # Enable search in header
   enableSearch = true
 
@@ -88,8 +81,8 @@ DefaultContentLanguageInSubdir = true
   ]
 
   # Custom copyright - optional
-  copyright = "Copyright © 2021 - Katheryn Fox · All rights reserved"
-  favicon = "/favicon.svg"
+#   copyright = "Copyright © 2021 - Katheryn Fox · All rights reserved"
+  favicon = "/logo-color.svg"
 
   # Color for the intro details and social links block, not applicable for dark mode
   # Supported values: Any color from TailwindCSS default colors
@@ -142,62 +135,14 @@ DefaultContentLanguageInSubdir = true
 [params.homepage.social]
   # Global params common for both languages
   title = "Follow me"
-  description = "I work on everything coding and tweet developer memes"
+  description = "I shary my work in the blog section of this homepage you can find all the code on my public github."
 
   [[params.homepage.social.icons]]
-    website = "twitter"
-    url = "https://twitter.com/"
-  [[params.homepage.social.icons]]
     website = "linkedin"
-    url = "https://linkedin.com/in/"
-  [[params.homepage.social.icons]]
-    website = "xing"
-    url = "https://www.xing.com/profile/"
-  [[params.homepage.social.icons]]
-    website = "telegram"
-    url = "https://t.me/"
+    url = "https://www.linkedin.com/in/antonius-malsam/"
   [[params.homepage.social.icons]]
     website = "github"
-    url = "https://github.com/"
-  [[params.homepage.social.icons]]
-    website = "buymeacoffee"
-    url = "https://www.buymeacoffee.com/"
-  [[params.homepage.social.icons]]
-    website = "medium"
-    url = "https://medium.com/"
-  [[params.homepage.social.icons]]
-    website = "reddit"
-    url = "https://reddit.com/"
-  [[params.homepage.social.icons]]
-    website = "dribbble"
-    url = "https://dribbble.com/"
-  [[params.homepage.social.icons]]
-    website = "stackoverflow"
-    url = "https://stackoverflow.com/"
-  [[params.homepage.social.icons]]
-    website = "xda"
-    url = "https://forum.xda-developers.com/"
-  [[params.homepage.social.icons]]
-    website = "tiktok"
-    url = "https://tiktok.com"
-  [[params.homepage.social.icons]]
-    website = "googlescholar"
-    url = "https://scholar.google.com/"
-  [[params.homepage.social.icons]]
-    website = "mastodon"
-    url = "https://joinmastodon.org"
-  [[params.homepage.social.icons]]
-    website = "youtube"
-    url = "https://youtube.com"
-  [[params.homepage.social.icons]]
-    website = "instagram"
-    url = "https://instagram.com"
-  [[params.homepage.social.icons]]
-    website = "facebook"
-    url = "https://facebook.com"
-  [[params.homepage.social.icons]]
-    website = "behance"
-    url = "https://behance.net"
+    url = "https://github.com/AntoniusMa"
 
 [[menu.main]]
   name = "About"
