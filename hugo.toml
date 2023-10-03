@@ -50,7 +50,7 @@ DefaultContentLanguageInSubdir = true
         weight = 2
     [[languages.de.menu.main]]
         name = "Impressum"
-        url = "impressum"
+        url = "impress"
         weight = 3
         
 #   [languages.dy]

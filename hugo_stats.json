@@ -8,8 +8,10 @@
       "circle",
       "defs",
       "div",
+      "em",
       "footer",
       "h1",
+      "h2",
       "h5",
       "head",
       "header",
@@ -30,6 +32,7 @@
       "section",
       "span",
       "stop",
+      "strong",
       "svg",
       "title",
       "ul"
@@ -167,7 +170,15 @@
       "z-10"
     ],
     "ids": [
-      "a"
+      "a",
+      "angaben-gemäß--5-tmg-und--55-rstv",
+      "berufshaftpflichtversicherung",
+      "contact",
+      "eu-online-dispute-resolution",
+      "eu-streitschlichtung",
+      "kontakt",
+      "legal-notice",
+      "professional-liability-insurance"
     ]
   }
 }
