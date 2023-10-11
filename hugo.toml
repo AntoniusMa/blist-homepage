@@ -60,7 +60,8 @@ DefaultContentLanguageInSubdir = true
 
 [params]
   # Enable the darkmode toggle in header
-  darkModeToggle = true
+  darkModeToggle = false
+  defaultThemeDark = true
   logo = "/logo-no-background.svg"
   introPhoto = "/profilePic.jpg"
   cvPhoto = "/cv-pic.jpg"
