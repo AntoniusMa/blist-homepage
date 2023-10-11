@@ -11,8 +11,8 @@ DefaultContentLanguageInSubdir = true
     weight = 1
     languageName = "English"
     [languages.en.params]
-      introTitle = "Hey! I'm Antonius Malsam"
-      introSubtitle = "29 y/o DevOps engineer and software developer. My goal is to bring joy to the world of software development, by staying on top of the game and sharing my knowledge with my customers in an environment of openness and trust."
+      introTitle = "Hey! I'm Antonius"
+      introSubtitle = "29 y/o DevOps engineer and passionate software developer. My principles: Stay on top of the game, share your knowledge and work on your customer's future as if it were yours"
     [languages.en.params.homepage.social]
         title = "Follow me"
         description = "I share my work in the blog section of this homepage you can find all the code on my public github."
@@ -35,8 +35,8 @@ DefaultContentLanguageInSubdir = true
     languageName = "Deutsch"
     title = "AM Cloud Solutions"
     [languages.de.params]
-      introTitle = "Hallo! Ich bin Antonius Malsam"
-      introSubtitle = "29-jähriger DevOps Engineer und Software-Entwickler. Ich möchte Freude in die Welt der Software-Entwicklung bringen, indem ich immer am Puls der Zeit bleibe und mein Wissen in einer Arbeitsatmosphäre aus Offenheit und Vertrauen mit meinen Kunden teile."
+      introTitle = "Hallo! Ich bin Antonius"
+      introSubtitle = "29-jähriger DevOps Engineer und Software-Entwickler aus Leidenschaft. Meine Prinzipien: Bleib am Puls der Zeit, teile dein Wissen und Arbeite für die Zukunft der Kunden, als wäre es deine eigene."
     [languages.de.params.homepage.social]
         title = "Folgt mir"
         description = "Ich präsentiere meine Arbeit in Form der Blogbeiträge auf dieser Seite, ihr findet den Code auf meinem öffentlichen github Account." 
@@ -46,7 +46,7 @@ DefaultContentLanguageInSubdir = true
         weight = 1
     [[languages.de.menu.main]]
         name = "Lebenslauf"
-        url = "lebenslauf"
+        url = "cv"
         weight = 2
     [[languages.de.menu.main]]
         name = "Impressum"
@@ -63,6 +63,7 @@ DefaultContentLanguageInSubdir = true
   darkModeToggle = true
   logo = "/logo-no-background.svg"
   introPhoto = "/profilePic.jpg"
+  cvPhoto = "/cv-pic.jpg"
   # Enable search in header
   enableSearch = true
 
@@ -138,6 +139,9 @@ DefaultContentLanguageInSubdir = true
   description = "I shary my work in the blog section of this homepage you can find all the code on my public github."
 
   [[params.homepage.social.icons]]
+    website = "e-mail"
+    url= "http://localhost:1313/en/cv/"
+  [[params.homepage.social.icons]]
     website = "linkedin"
     url = "https://www.linkedin.com/in/antonius-malsam/"
   [[params.homepage.social.icons]]
@@ -161,3 +165,10 @@ DefaultContentLanguageInSubdir = true
   [markup.goldmark.renderer]
     # Enable to include inline HTML
     unsafe = true
+
+[module]
+  [[module.imports]]
+    path = "github.com/schnerring/hugo-mod-json-resume"
+  [[module.mounts]]
+    source = "node_modules/simple-icons/icons"
+    target = "assets/simple-icons"
