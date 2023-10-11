@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ .Lang }}" itemscope itemtype="http://schema.org/WebPage">
+  {{- partial "head.html" . -}}
+  <body class="dark:bg-gray-800 dark:text-white relative flex flex-col min-h-screen">
+    {{- partial "header.html" . -}}
+    <main id="cv-container" class="highlight-border-bottom grid lg:grid-cols-12 gap-5">
+        <article class="mx-auto lg:col-span-8 prose lg:prose-xl p-4 dark:prose-dark dark-bg-cv">
+            <h1 class="text-2xl font-bold mb-2"> {{ .Title }}</h1>
+            {{ .Content }}
+        </article>
+        <aside class="dark:bg-gray-900 dark:prose-dark lg:col-span-4 m-0 py-4">
+            <div style="top: 130px;" class="overflow-y-auto sticky z-20 basics-fixed-height">
+              {{ partial "json-resume/basics.html" . }}
+            </div>
+        </aside>
+    </main>
+    {{/*  <div class="highlight-border-bottom grid md:grid-cols-12 gap-5" style="height: calc(100vh-114px);">
+        <main class="flex-1 md:col-span-8 p-4">
+            <article class="mx-auto prose lg:prose-xl p-4 py-0 dark:prose-dark dark-bg-cv">
+                <h1 class="text-2xl font-bold mb-2"> {{ .Title }}</h1>
+                {{ .Content }}
+            </article>
+        </main>
+        <aside class="dark:bg-gray-900 dark:prose-dark md:col-span-4 md:pt-0">
+            <div style="top: 114px;" class="max-h-screen overflow-y-auto sticky z-20">
+              {{ partial "json-resume/basics.html" . }}
+            </div>
+        </aside>
+    </div>  */}}
+
+    {{- partial "footer.html" . -}}
+  </body>
+</html>

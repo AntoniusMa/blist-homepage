@@ -1,0 +1,9 @@
+{{ if .image }}
+  <div class="jr-basics__image">
+    <img
+      src="{{ .image }}"
+      alt="Picture{{ with .name }} of {{ . }}{{ end }}"
+      class="jr-basics__image-tag"
+    />
+  </div>
+{{ end }}
