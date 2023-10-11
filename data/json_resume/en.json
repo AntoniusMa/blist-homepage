@@ -1,0 +1,221 @@
+{
+    "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+    "basics": {
+      "name": "Antonius Malsam",
+      "label": "DevOps- and Software-Engineer",
+      "image": "/cv-pic.jpg",
+      "email": "antonius.malsam@amcloudsolutions.de",
+      "phone": "+49 176 81669291",
+      "summary": "I'm a computer scientist with a master's degree who lives in the beautiful city of Regensburg. I began my career as a part-time Software Developer, initially focusing on frontend development. After completing my bachelor's, I shifted my focus from my studies to hands-on backend development and DevOps. This transition made me a versatile fullstack developer. Before starting my own business, I spent nearly two years as a tech lead and project manager at emgenics GmbH. In this role, I tackled real-world challenges, guided projects, and shared my expertise with colleagues and clients.",
+      "location": {
+        "city": "Regensburg",
+        "countryCode": "DE"
+      },
+      "profiles": [
+        {
+          "network": "GitHub",
+          "url": "https://github.com/AntoniusMa"
+        },
+        {
+          "network": "LinkedIn",
+          "url": "https://www.linkedin.com/in/antonius-malsam"
+        }
+      ]
+    },
+    "work": [
+      {
+        "name": "emgenics GmbH.",
+        "location": "Regensburg, Germany",
+        "position": "Project- and Tech-lead",
+        "url": "https://www.emgenics.de/",
+        "startDate": "2021-12-01",
+        "endDate": "2023-08-31",
+        "summary": "The emgenics GmbH is a young company that has established itself as a software service provider for automotive, IoT and web development. As one of their first employees, I took on many challanges as a technical lead, project manager and teacher of new talent.",
+        "highlights": [
+          "Developed an application for an IoT gateway in a service-oriented architecture with integration of NATS, MQTT, gRPC, REST and containerd API using Go and C++.",
+          "Designed and implemented a software architecture for a backend application in .NET to manage the IoT devices. Includes features like over the air updates, automatic, secure device authorization and monitoring.",
+          "Built and maintained on-premises Kubernetes cluster for development and production using Rancher, Cert-Manager, Vault, Gitlab, and Longhorn. Subsequently migrated to Azure cloud.",
+          "Created build automation and pipeline definition for the projects with Docker, Gitlab-Runner and Gitlab CI/CD",
+          "Worked on Yocto Linux image with remote update function via swupdate",
+          "Managed a developer team of 6 developers in a Scrum-like structure with supervision and training of students.",
+          "Primary customer contact for requirements engineering, development progress, and process design."
+        ]
+      },
+      {
+        "name": "e:fs TechHub GmbH.",
+        "location": "Gaimersheim, Germany",
+        "position": "Master's Thesis",
+        "url": "https://www.efs-techhub.com/",
+        "startDate": "2021-05-01",
+        "endDate": "2021-11-30",
+        "summary": "The e:fs is a joint venture of the AKKA Industry Consulting GmbH and the CARIAD SE. They are technology service providers in all kinds of industries. I've had the opportunity to work on my master's thesis \"Automatically Scalable Deployment of Deep Neural Networks Based on a Plant Recognition Application\" in their data processing and analysis department.",
+        "highlights": [
+            "Migration from Azure Machinelearning Service to a containerized application that can be deployed in any cloud environment.",
+            "Created Kubernetes deployments for multiple web services and configured a cluster monitoring with Prometheus and Grafana.",
+            "Studied and optimized performance of the deployment based on the size of the target images of the classification and the number of requests to be processed. Configured automatic scaling using the Kubernetes Horizontal Pod Autoscaler and Azure Cluster Autoscaler.",
+            "The result was an 82% increase in the performance of the deployment while saving $400 per month in infrastructure costs"
+        ]
+      },
+      {
+        "name": "DioVision Systems GmbH.",
+        "location": "Regenstauf, Germany",
+        "position": "Software Developer (part-time)",
+        "startDate": "2020-02-01",
+        "endDate": "2021-04-30",
+        "summary": "DioVision was a growing startup with a visual inspection product for pharmaceutical manufacturers as well as a software development service provider. I worked for them as a part-time fullstack developer during my master studies and was one of the main people responsible for frontend development.",
+        "highlights": [
+            "Implemented complex database structures, queries and views for data analysis in SQL (MySQL)",
+            "Designed and implemented a scalable software architecture for two Angular frontends. Acted as a frontend development tutor for other part-time students",
+            "Implemented and extended backend functionality in an event-based backend in Node.js (TypeScript) using Kafka, REST, and websockets."
+        ]
+      },
+      {
+        "name": "EBSnet eEnergy GmbH.",
+        "location": "Regensburg, Germany",
+        "position": "Software Developer (part-time)",
+        "url": "https://www.ebsnet.de",
+        "startDate": "2018-10-01",
+        "endDate": "2020-01-31",
+        "summary": "The EBSnet eEnergy GmbH. is a software company in the energy business, which offers own products for the German energy market. I've been supporting them as a part-time fullstack developer with focus on frontend and worked on my bachelor thesis with them.",
+        "highlights": [
+            "Angular, OracleSQL, PostgreSQL, Java",
+            "Bachelor Thesis: Designed and implemented a proof-of-origin platform for energy on Ethereum-based blockchain platforms."
+        ]
+      },
+      {
+        "name": "Bertrandt S.A.",
+        "location": "Toulouse, France",
+        "position": "Intern software development",
+        "url": "https://www.bertrandt.com/",
+        "startDate": "2018-03-01",
+        "endDate": "2018-07-31",
+        "summary": "Academic internship abroad. Focus: Python, OBD, MQTT, CAN, Angular"
+      },
+      {
+        "name": "Bertrandt Ingenieurbüro GmbH.",
+        "location": "Regensburg, Germany",
+        "position": "Software developer (part-time)",
+        "url": "https://www.bertrandt.com/",
+        "startDate": "2017-06-01",
+        "endDate": "2018-02-28",
+        "summary": "Python, C#, Unity, C++"
+      }
+    ],
+    "education": [
+      {
+        "institution": "OTH Regensburg",
+        "url": "https://www.oth-regensburg.de/",
+        "area": "Computer Science",
+        "studyType": "Master",
+        "startDate": "2019-10-01",
+        "endDate": "2023-09-30",
+        "score": "Grade: 2.18"
+      },
+      {
+        "institution": "OTH Regensburg",
+        "url": "https://www.oth-regensburg.de/",
+        "area": "Computer Science",
+        "studyType": "Bachelor",
+        "startDate": "2016-03-01",
+        "endDate": "2019-09-30",
+        "score": "Grade: 1.72"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Backend Development",
+        "level": "🌐",
+        "keywords": [
+            "🌐🌐🌐 <br>Golang",
+            "Node.js <br>🌐🌐<br> .NET",
+            "C#", "Java", "SQL", "NoSQL", "Python<br>🌐<br>C++",
+            "C", "Solidity"
+        ]
+      },
+      {
+        "name": "Frontend Development",
+        "level": "💻",
+        "keywords": [
+            "💻💻💻 <br>Angular",
+            "CSS", "JavaScript", "TypeScript<br>💻💻<br>Flutter",
+            "NativeScript", "Hugo", "Vue.js <br>💻<br>React",
+            "Ionic"
+        ]
+      },
+      {
+        "name": "DevOps",
+        "level": "⚙️",
+        "keywords": [
+            "⚙️⚙️⚙️ <br>Build automation",
+            "Docker", "Gitlab and Github CI/CD<br>⚙️⚙️<br>containerd",
+            "Kubernetes", "Helm", "Azure", "Azure AKS", "Shell-Scripting", "Linux", "Yocto Linux", "Cert Manager", "Grafana", "Prometheus<br>⚙️<br>Longhorn",
+            "Rancher", "Vault", "Azure DevOps", "MetalLB"
+        ]
+      },
+      {
+        "name": "Technologies",
+        "level": "🤖",
+        "keywords": [
+            "🤖🤖🤖 <br>NATS",
+            "Protobuf", "MQTT", "REST<br>🤖🤖<br>gRPC",
+            "Blockchain", "Nginx", "Traefik", "Load balancing", "Distributed computing", "Virtualization", "Minio<br>🤖<br>Express",
+            "Tensorflow", "PyTorch", "ElasticSearch"
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "fluency": "Professional knowledge"
+      },
+      {
+        "language": "German",
+        "fluency": "Native language"
+      }
+    ],
+    "projects": [
+      {
+        "name": "FlexStation",
+        "description": "A shared parcel station",
+        "highlights": [
+          "Developed a shared parcel station for coworking space tenants",
+          "Implementation of frontend in NativeScript Vue and Backend in Go"
+        ],
+        "keywords": ["Go/Golang", "gRPC", "TypeScript", "Vue", "Protobuf"],
+        "startDate": "2020-11-01",
+        "endDate": "2021-07-30",
+        "roles": ["Software developer", "Team management"],
+        "type": "Private and university project"
+      },
+      {
+        "name": "OTH App",
+        "description": "App for students of the OTH Regensburg",
+        "startDate": "2022-10-01",
+        "endDate": "2023-03-01",
+        "roles": ["Software developer"],
+        "highlights": [
+            "Maintained and restructured Kubernetes Cluster",
+            "Implemented Flutter mobile application"
+        ],
+        "keywords": ["Kubernetes", "Flutter", "Dart"]
+      },
+      {
+        "name": "Kochchef",
+        "startDate": "2022-07-07",
+        "endDate": "2022-07-09",
+        "roles": ["Software developer"],
+        "description": "Cooking applications rethought",
+        "highlights": [
+            "Created an alternative approach for a cooking application. It allows its users to filter recipes based on allergies, ingredients that should or should not be included, and nutritional preferences.",
+            "Reverse-engineered the existing platform \"Chefkoch.de\" and implemented a web scraper to collect data, enrich it with additional meta-information, and store it in an ElasticSearch database."
+        ],
+        "keywords": ["Golang", "React", "ElasticSearch"]
+      }
+    ],
+    "meta": {
+      "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+      "version": "v1.0.0",
+      "lastModified": "2017-12-24T15:53:00"
+    }
+  }
+  
