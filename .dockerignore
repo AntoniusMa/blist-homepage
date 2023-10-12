@@ -1,0 +1,6 @@
+.gitignore
+.gitmodules
+build_and_deploy.sh
+public
+resources/_gen
+node_modules
