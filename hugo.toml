@@ -12,7 +12,7 @@ DefaultContentLanguageInSubdir = true
     languageName = "English"
     [languages.en.params]
       introTitle = "Hey! I'm Antonius"
-      introSubtitle = "29 y/o DevOps engineer and passionate software developer. My principles: Stay on top of the game, share your knowledge and work on your customer's future as if it were yours"
+      introSubtitle = "29 y/o DevOps engineer and passionate software developer. My principles: Stay on top of the game, share your knowledge and work on your customer's future as if it were yours."
     [languages.en.params.homepage.social]
         title = "Follow me"
         description = "I share my work in the blog section of this homepage you can find all the code on my public github."
