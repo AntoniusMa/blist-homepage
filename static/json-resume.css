@@ -29,7 +29,7 @@
 
 @media (min-width: 1024px) /* tailwind lg */ {
     .basics-fixed-height {
-        height: calc(100vh - 130px);
+        height: calc(100vh - 114px);
     }
 }
 
@@ -126,6 +126,8 @@
 .jr-basics__item {
     flex-direction: column;
     text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .jr-basics__item hr {
