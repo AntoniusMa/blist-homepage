@@ -30,9 +30,13 @@ DefaultContentLanguageInSubdir = true
         url = "cv"
         weight = 2
     [[languages.en.menu.main]]
+        name = "Contact"
+        url = "contact"
+        weight = 3
+    [[languages.en.menu.main]]
         name = "Impress"
         url = "impress"
-        weight = 3
+        weight = 4
 
   [languages.de]
     contentDir = "content/de" # Deutsch
@@ -59,9 +63,13 @@ DefaultContentLanguageInSubdir = true
         url = "cv"
         weight = 2
     [[languages.de.menu.main]]
+        name = "Kontakt"
+        url = "contact"
+        weight = 3
+    [[languages.de.menu.main]]
         name = "Impressum"
         url = "impress"
-        weight = 3
+        weight = 4
         
 #   [languages.dy]
 #     contentDir = "content/dy" #Example language
@@ -75,6 +83,10 @@ DefaultContentLanguageInSubdir = true
   logo = "/logo-no-background.svg"
   introPhoto = "/profilePic.jpg"
   cvPhoto = "/cv-pic.jpg"
+
+  name = "Antonius Malsam"
+  email = "antonius.malsam@amcloudsolutions.de"
+  phone = "+49 176 81669291"
   # Enable search in header
   enableSearch = false
 
@@ -149,9 +161,6 @@ DefaultContentLanguageInSubdir = true
   title = "Follow me"
   description = "I shary my work in the blog section of this homepage you can find all the code on my public github."
 
-  [[params.homepage.social.icons]]
-    website = "e-mail"
-    url= "http://localhost:1313/en/cv/"
   [[params.homepage.social.icons]]
     website = "linkedin"
     url = "https://www.linkedin.com/in/antonius-malsam/"
