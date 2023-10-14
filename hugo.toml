@@ -36,7 +36,7 @@ DefaultContentLanguageInSubdir = true
     title = "AM Cloud Solutions"
     [languages.de.params]
       introTitle = "Hallo! Ich bin Antonius"
-      introSubtitle = "29-jähriger DevOps Engineer und Software-Entwickler aus Leidenschaft. Meine Prinzipien: Bleib am Puls der Zeit, teile dein Wissen und Arbeite für die Zukunft der Kunden, als wäre es deine eigene."
+      introSubtitle = "29-jähriger DevOps Engineer und Software-Entwickler aus Leidenschaft. Meine Prinzipien: Bleib am Puls der Zeit, teile dein Wissen und arbeite für die Zukunft der Kunden, als wäre es deine eigene."
     [languages.de.params.homepage.social]
         title = "Folgt mir"
         description = "Ich präsentiere meine Arbeit in Form der Blogbeiträge auf dieser Seite, ihr findet den Code auf meinem öffentlichen github Account." 
