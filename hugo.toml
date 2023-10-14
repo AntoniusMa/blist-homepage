@@ -76,7 +76,7 @@ DefaultContentLanguageInSubdir = true
   introPhoto = "/profilePic.jpg"
   cvPhoto = "/cv-pic.jpg"
   # Enable search in header
-  enableSearch = true
+  enableSearch = false
 
   # Option to customize the search parameters of a page
   # Below are the supported options; Note that including entire content
