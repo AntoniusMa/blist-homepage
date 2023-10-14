@@ -13,6 +13,11 @@ DefaultContentLanguageInSubdir = true
     [languages.en.params]
       introTitle = "Hey! I'm Antonius"
       introSubtitle = "29 y/o DevOps engineer and passionate software developer. My principles: Stay on top of the game, share your knowledge and work on your customer's future as if it were yours."
+      searchBar = "Search"
+      searchBarPlaceholder = "Enter search query"
+      searchBarResults = "Results"
+      searchBarNoResults1 = "No results found"
+      searchBarNoResults2 = "Try adjusting your search query"
     [languages.en.params.homepage.social]
         title = "Follow me"
         description = "I share my work in the blog section of this homepage you can find all the code on my public github."
@@ -37,6 +42,11 @@ DefaultContentLanguageInSubdir = true
     [languages.de.params]
       introTitle = "Hallo! Ich bin Antonius"
       introSubtitle = "29-jähriger DevOps Engineer und Software-Entwickler aus Leidenschaft. Meine Prinzipien: Bleib am Puls der Zeit, teile dein Wissen und arbeite für die Zukunft der Kunden, als wäre es deine eigene."
+      searchBar = "Suche"
+      searchBarPlaceholder = "Sucheingabe"
+      searchBarResults = "Ergebnisse"
+      searchBarNoResults1 = "Keine Ergebnisse gefunden"
+      searchBarNoResults2 = "Versuche die Suche anzupassen"
     [languages.de.params.homepage.social]
         title = "Folgt mir"
         description = "Ich präsentiere meine Arbeit in Form der Blogbeiträge auf dieser Seite, ihr findet den Code auf meinem öffentlichen github Account." 
