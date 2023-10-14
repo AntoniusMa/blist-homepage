@@ -9,6 +9,13 @@
 /* Tailwind's utility classes - generated based on config file */
 @import "node_modules/tailwindcss/utilities";
 
+  .search-ui {
+    z-index: 20;
+    max-width: 100vw;
+    height: fit-content;
+    border-bottom-width: 2px;
+  }
+
   /* Styles for very small screens */
   @media (max-width: 350px) {
 
