@@ -21,10 +21,10 @@ DefaultContentLanguageInSubdir = true
     [languages.en.params.homepage.social]
         title = "Follow me"
         description = "I share my work in the blog section of this homepage you can find all the code on my public github."
-    # [[languages.en.menu.main]]
-    #     name = "Blog"
-    #     url = "blog"
-    #     weight = 1
+    [[languages.en.menu.main]]
+        name = "Blog"
+        url = "blog"
+        weight = 1
     [[languages.en.menu.main]]
         name = "CV"
         url = "cv"
@@ -54,10 +54,10 @@ DefaultContentLanguageInSubdir = true
     [languages.de.params.homepage.social]
         title = "Folgt mir"
         description = "Ich präsentiere meine Arbeit in Form der Blogbeiträge auf dieser Seite, ihr findet den Code auf meinem öffentlichen github Account." 
-    # [[languages.de.menu.main]]
-    #     name = "Blog"
-    #     url = "blog"
-    #     weight = 1
+    [[languages.de.menu.main]]
+        name = "Blog"
+        url = "blog"
+        weight = 1
     [[languages.de.menu.main]]
         name = "Lebenslauf"
         url = "cv"
