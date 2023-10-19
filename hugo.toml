@@ -30,13 +30,17 @@ DefaultContentLanguageInSubdir = true
         url = "cv"
         weight = 2
     [[languages.en.menu.main]]
+        name = "Tags"
+        url = "tags"
+        weight = 3
+    [[languages.en.menu.main]]
         name = "Contact"
         url = "contact"
-        weight = 3
+        weight = 4
     [[languages.en.menu.main]]
         name = "Impress"
         url = "impress"
-        weight = 4
+        weight = 5
 
   [languages.de]
     contentDir = "content/de" # Deutsch
@@ -63,13 +67,17 @@ DefaultContentLanguageInSubdir = true
         url = "cv"
         weight = 2
     [[languages.de.menu.main]]
+        name = "Tags"
+        url = "tags"
+        weight = 3
+    [[languages.de.menu.main]]
         name = "Kontakt"
         url = "contact"
-        weight = 3
+        weight = 4
     [[languages.de.menu.main]]
         name = "Impressum"
         url = "impress"
-        weight = 4
+        weight = 5
         
 #   [languages.dy]
 #     contentDir = "content/dy" #Example language
