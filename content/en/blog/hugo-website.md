@@ -178,6 +178,8 @@ There it is, after refreshing (clear your browser's cache) our first blog post w
 
 This concludes my first post about how I created this blog. I used HUGO because I wanted to try something new, something that suited my experience and skills, and allowed me to use Markdown to create content. And that is exactly what HUGO gives you. You can use all your web development experience, it is amazingly easy to start a project and choose one of the hundreds of themes available, everything is 100 \% customisable through HTML, JS and CSS. As a developer, I found it incredibly easy to create my website using HUGO and I would recommend it to anyone with some knowledge of web development.
 
-Checkout the next posts of the series:
--   Use json-resume to create a CV-Page for your website
--   Deploy your website using apache and docker
+Checkout the posts of the series:
+**HUGO Website Series**
+-    ⚪ [Create HUGO Website](https://amcloudsolutions.de/en/blog/hugo-website/)
+-    [Resume Page for HUGO Website](https://amcloudsolutions.de/en/blog/cv-article/)
+-    [Hosting HUGO Website](https://amcloudsolutions.de/en/blog/hosting-hugo/)

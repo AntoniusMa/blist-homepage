@@ -185,6 +185,8 @@ Nach dem Aktualisieren (dnekt dran den Browser Cache zu löschen) sehen wir unse
 
 Das ist das Ende meines ersten Beitrags über die Entstehung dieses Blogs. Ich habe mich für HUGO entschieden, um etwas Neues auszuprobieren – etwas, das perfekt zu meinen Fähigkeiten und Erfahrungen passt und mir erlaubt, Inhalte mit Leichtigkeit in Markdown zu erstellen. Genau das ist das Schöne an HUGO: Es ermöglicht einem, die gesamte Webentwicklungskompetenz anzuwenden und bietet gleichzeitig eine erstaunlich einfache Möglichkeit, ein Projekt zu starten. Und das beste ist, dass man aus Hunderten von verfügbaren Themes wählen kann, und alle zu 100 % anpassbar durch HTML, JS und CSS sind. Als Entwickler war es für mich ein wahres Vergnügen, meine Website mit HUGO zu gestalten. Ich kann es daher uneingeschränkt jedem empfehlen, der bereits ein gewisses Verständnis für Webentwicklung mitbringt.
 
-Schaut euch auch die nächsten Beiträge der Serie an:
--   Erstellen eines Online Lebenslaufs mit HUGO und json-resume
--   Deployment der Website mit Apache und Docker
+Schaut euch auch die nächsten Beiträge zum erstellen einer HUGO website an:
+**HUGO Website Posts**
+-    ⚪ [Erstellen einer HUGO website](https://amcloudsolutions.de/de/blog/hugo-website/)
+-    [Lebenslauf für eine HUGO website](https://amcloudsolutions.de/de/blog/cv-article/)
+-    [Hosting einer HUGO website](https://amcloudsolutions.de/de/blog/hosting-hugo/)

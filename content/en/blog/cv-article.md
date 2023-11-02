@@ -225,7 +225,7 @@ I'm not going to explain everything, but we should take a look on the specifics 
 }
 ```
 
-We want the resume to look good at all sizes, so we'll define two different styles, one for large screens and one for small screens. On large screens, there's enough space for all the text, so we can put the job-position in one line with the date, and the company in one line with the location. We use the *flex-wrap* property for line breaks, which means, the flexbox will automatically place the next item in the next line, if the space of the line is occupied. So for a screen width above 640px, our breakpoint for small screens, we set the *flex-basis* of the *.jr-work__name* to 60 \%and for the *jr__date-range* to 40 \%. This forces the company name into the next line. The *flex-grow* 1 on *jr__date-range* and *jr-work__location*, enables these elements to take up all the remaining space in their line. With this property we enable the text-alignment to the right side. For small screens we set the *flex-basis* of all the classes to 100 %, forcing a line break for each element. This way we get these two designs for small and for large screens:
+We want the resume to look good at all sizes, so we'll define two different styles, one for large screens and one for small screens. On large screens, there's enough space for all the text, so we can put the job-position in one line with the date, and the company in one line with the location. We use the *flex-wrap* property for line breaks, which means, the flexbox will automatically place the next item in the next line, if the space of the line is occupied. So for a screen width above 640px, our breakpoint for small screens, we set the *flex-basis* of the *.jr-work__name* to 60 \% and for the *jr__date-range* to 40 \%. This forces the company name into the next line. The *flex-grow* 1 on *jr__date-range* and *jr-work__location*, enables these elements to take up all the remaining space in their line. With this property we enable the text-alignment to the right side. For small screens we set the *flex-basis* of all the classes to 100 %, forcing a line break for each element. This way we get these two designs for small and for large screens:
 
 {{< figure src="/blog/cv/CV-small-screen.png" class="blog-figure-center shadow" >}}
 
@@ -238,3 +238,7 @@ With this our resume page is finally finished.
 
 In this article we've seen how to integrate json-resume and create a custom resume page for our website. We've learned about HUGO's layout overwrite feature and how to define different layouts for different parts of your application. We've added an external package and used HUGO's shortcodes to create a responsive design that fits perfectly into our website's design. In the next article in this series, I will show you how to create a build process that is independent of your development environment using Docker and how to serve your homepage using Apache, stay tuned.
 
+**HUGO Website Series**
+-    [Create HUGO Website](https://amcloudsolutions.de/en/blog/hugo-website/)
+-    ⚪ [Resume Page for HUGO Website](https://amcloudsolutions.de/en/blog/cv-article/)
+-    [Hosting HUGO Website](https://amcloudsolutions.de/en/blog/hosting-hugo/)
