@@ -235,7 +235,12 @@ Der Lebenslauf soll in allen Bildschirmgrößen ansehnlich bleiben. Daher defini
 
 Damit ist unser Lebenslauf fertig!
 
-# Conclusion
+# Zusammenfassung
 
 In diesem Artikel haben wir gesehen wie wir json-resume in unser HUGO Projekt integrieren können um eine eigene Seite für einen Lebenslauf zu erstellen. Wir haben HUGOs layout overwrite Feature kennengelernt und gelernt, wie wir verschieden Layout für verschiedene Teile einer Website definieren können. Wir haben ein externes Plugin zu unserem Projekt hinzugefügt und HUGOs Shortcodes verwendet um ein an verschiedene Bildschirmgrößen anpassbares Design zu erschaffen, das sich perfekt in unser bisheriges Theme integriert. Im nächsten Teil der Serie werde ich euch zeigen wie wir unsere fertige Website in einer Production Environment mit Apache deployen können und wie wir den Build Prozess durch Docker automatisieren und Plattformunabhängig gestalten können.
 
+
+**HUGO Website Posts**
+-    [Erstellen einer HUGO website](https://amcloudsolutions.de/de/blog/hugo-website/)
+-    ⚪ [Lebenslauf für eine HUGO website](https://amcloudsolutions.de/de/blog/cv-article/)
+-    [Hosting einer HUGO website](https://amcloudsolutions.de/de/blog/hosting-hugo/)
