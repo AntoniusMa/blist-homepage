@@ -1,2 +1,4 @@
 github.com/schnerring/hugo-mod-json-resume v0.0.0-20231001042608-21d3e09393aa h1:tJbMKv5pqEr0xyi5m0Gcf3iuEDI4QmiXAofaQbcyN+U=
 github.com/schnerring/hugo-mod-json-resume v0.0.0-20231001042608-21d3e09393aa/go.mod h1:an+FdylzRESQ2N+NuFK+iLerxnDRWbOqkxCDUXflGF4=
+github.com/schnerring/hugo-mod-json-resume v0.0.0-20241228134548-547e79e61ebb h1:4VL3vg7cK+7LtwwfYlnLTj6b1SFkqhPLaRBaztUinNg=
+github.com/schnerring/hugo-mod-json-resume v0.0.0-20241228134548-547e79e61ebb/go.mod h1:BcoGC8EeKe99qbys3sFvNmRH7FXJ2sgvfQMH/x3KmbU=

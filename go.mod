@@ -1,5 +1,5 @@
 module amcloudsolutions.de
 
-go 1.18
+go 1.23.4
 
-require github.com/schnerring/hugo-mod-json-resume v0.0.0-20231001042608-21d3e09393aa // indirect
+require github.com/schnerring/hugo-mod-json-resume v0.0.0-20241228134548-547e79e61ebb // indirect
