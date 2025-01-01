@@ -25,19 +25,19 @@
     }
   },
   "dependencies": {
-    "simple-icons": "^9.16.1"
+    "simple-icons": "^13.21.0"
   },
   "description": "Blist is a clean and fast blog theme for your Hugo site.",
   "devDependencies": {
     "@tailwindcss/typography": "^0.4.0",
     "autoprefixer": "^10.2.5",
-    "husky": "^8.0.3",
-    "lint-staged": "^14.0.1",
-    "markdownlint-cli": "^0.36.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.3.0",
+    "markdownlint-cli": "^0.43.0",
     "postcss": "^8.2.10",
     "postcss-cli": "^8.3.1",
     "postcss-import": "^14.0.1",
-    "prettier": "^3.0.3",
+    "prettier": "^3.4.2",
     "prettier-plugin-go-template": "^0.0.15",
     "tailwindcss": "^2.2.19"
   },
