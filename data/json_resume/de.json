@@ -24,8 +24,39 @@
     },
     "work": [
       {
+        "name": "Digital Venture Consultants",
+        "location": "Frankfurt",
+        "position": "Senior Software Engineer",
+        "startDate": "08.01.2024",
+        "endDate": "31.01.2025",
+        "highlights": [
+          "Weiterentwicklung und Maintainment eines Portals für Versicherungsmakler bestehend aus Micro-Frontends in Angular mit Java Spring Boot Backend in einer Microservice Architektur",
+          "Refactoring der bestehenden Angular-Anwendungen um die Zukunftsfähigkeit und Wartbarkeit sowie die Wiederverwendbarkeit zu erhöhen",
+          "Schulung, Weiterbildung und Unterstützung des beteiligten Entwicklerteams durch regelmäßigen Austausch und Präsentationen über verwendeten Konzepte und Technologien sowie Pair-Programming",
+          "Automatisierung manueller Testaufgaben durch E2E-Tests mit Playwright, visuelle Regressionstests mit Cypress und Erhöhung der Unit Test Coverage",
+          "Aktive Weiterentwicklung des Produkts und der Qualität der Software im Rahmen von selbst gestalteten Innovations-Sprints"
+        ],
+        "summary": "Die Digital Venture Consultants sind als Berater für Softwareentwicklung vor allem im Versicherungs- und Behördenbereich tätig. In meinem ersten Projekt als Freelancer habe ich als Senior Fullstack Developer zusammen mit Kollegen der DVC und unseres Endkunden ein Portal für Versicherungsmakler betreut und weiterentwickelt.",
+        "url": "https://dvc.ventures/"
+      },
+      {
+        "name": "INSYS Router Metrics Service",
+        "location": "Regensburg",
+        "position": "Senior Software Engineer",
+        "startDate": "01.05.2024",
+        "endDate": "31.08.2024",
+        "highlights": [
+          "Implementierung eines Backend-Services in Go. Der Service nimmt Metriken von INSYS Industrie-Routern in einem proprietären, textbasierten Format über REST entgegen, konvertiert und aggregiert sie und speichert sie dann in einer PostgreSQL Datenbank",
+          "Anwendung der TDD Methode zur vollständig unabhängigen Implementierung des Services und anschließender nahtloser Integration in das bestehende Backend System",
+          "Implementierung eines periodischen Exports der Metriken unter Verwendung von Prometheus"
+        ],
+        "summary": "INSYS ist ein Mittelständisches Regensburger Unternehmen, das Industrie-Router produziert und Software Lösungen für industrielle Datenkommunikation verbreitet. Im Rahmen unserer Zusammenarbeit habe ich einen eigenständigen Service innerhalb ihrer Go Backend Application implementiert und integriert.",
+        "description": "",
+        "url": "https://www.insys-icom.com/"
+      },
+      {
         "name": "emgenics GmbH.",
-        "location": "Regensburg, Deutschland",
+        "location": "Regensburg",
         "position": "Projekt- und Tech-Lead",
         "url": "https://www.emgenics.de/",
         "startDate": "01.12.2021",
@@ -43,7 +74,7 @@
       },
       {
         "name": "e:fs TechHub GmbH.",
-        "location": "Gaimersheim, Deutschland",
+        "location": "Gaimersheim",
         "position": "Masterarbeit",
         "url": "https://www.efs-techhub.com/",
         "startDate": "01.05.2021",
@@ -58,7 +89,7 @@
       },
       {
         "name": "DioVision Systems GmbH.",
-        "location": "Regenstauf, Deutschland",
+        "location": "Regenstauf",
         "position": "Softwareentwickler (Teilzeit)",
         "startDate": "01.02.2020",
         "endDate": "30.04.2021",
@@ -71,7 +102,7 @@
       },
       {
         "name": "EBSnet eEnergy GmbH.",
-        "location": "Regensburg, Deutschland",
+        "location": "Regensburg",
         "position": "Softwareentwickler (Teilzeit)",
         "url": "https://www.ebsnet.de",
         "startDate": "01.10.2018",
@@ -96,7 +127,7 @@
       },
       {
         "name": "Bertrandt Ingenieurbüro GmbH.",
-        "location": "Regensburg, Deutschland",
+        "location": "Regensburg",
         "position": "Softwareentwickler (Teilzeit)",
         "url": "https://www.bertrandt.com/",
         "startDate": "01.06.2017",
@@ -124,48 +155,6 @@
         "score": "Note: 1,72"
       }
     ],
-    "skills": [
-      {
-        "name": "Backend-Entwicklung",
-        "level": "🌐",
-        "keywords": [
-          "🌐🌐🌐 <br>Golang",
-          "Node.js <br>🌐🌐<br> .NET",
-          "C#", "Java", "SQL", "NoSQL", "Python<br>🌐<br>C++",
-          "C", "Solidity"
-        ]
-      },
-      {
-        "name": "Frontend-Entwicklung",
-        "level": "💻",
-        "keywords": [
-          "💻💻💻 <br>Angular",
-          "CSS", "JavaScript", "TypeScript<br>💻💻<br>Flutter",
-          "NativeScript", "Hugo", "Vue.js <br>💻<br>React",
-          "Ionic"
-        ]
-      },
-      {
-        "name": "DevOps",
-        "level": "⚙️",
-        "keywords": [
-          "⚙️⚙️⚙️ <br>Build-Automatisierung",
-          "Docker", "Gitlab und Github CI/CD<br>⚙️⚙️<br>containerd",
-          "Kubernetes", "Helm", "Azure", "Azure AKS", "Shell-Scripting", "Linux", "Yocto Linux", "Cert Manager", "Grafana", "Prometheus<br>⚙️<br>Longhorn",
-          "Rancher", "Vault", "Azure DevOps", "MetalLB"
-        ]
-      },
-      {
-        "name": "Technologien",
-        "level": "🤖",
-        "keywords": [
-          "🤖🤖🤖 <br>NATS",
-          "Protobuf", "MQTT", "REST<br>🤖🤖<br>gRPC",
-          "Blockchain", "Nginx", "Traefik", "Load balancing", "Verteilte Systeme", "Virtualisierung", "Minio<br>🤖<br>Express",
-          "Tensorflow", "PyTorch", "ElasticSearch"
-        ]
-      }
-    ],
     "languages": [
       {
         "language": "Englisch",
@@ -177,43 +166,6 @@
       }
     ],
     "projects": [
-      {
-        "name": "FlexStation",
-        "description": "Geteilte Paketstation",
-        "highlights": [
-          "Entwicklung einer gemeinsam genutzten Paketstation für Coworking-Space-Mieter.",
-          "Implementierung des Frontends in NativeScript Vue und des Backends in Go."
-        ],
-        "keywords": ["Go/Golang", "gRPC", "TypeScript", "Vue", "Protobuf"],
-        "startDate": "01.11.2020",
-        "endDate": "30.07.2021",
-        "roles": ["Softwareentwickler", "Team Organisation"],
-        "type": "Privat- und Studiums-Projekt"
-      },
-      {
-        "name": "OTH-App",
-        "description": "App für Studierende der OTH Regensburg",
-        "startDate": "01.10.2022",
-        "endDate": "01.03.2023",
-        "roles": ["Softwareentwickler"],
-        "highlights": [
-          "Wartung und Umstrukturierung des Kubernetes-Clusters.",
-          "Implementierung einer Mobile-App in Flutter."
-        ],
-        "keywords": ["Kubernetes", "Flutter", "Dart"]
-      },
-      {
-        "name": "Kochchef",
-        "startDate": "07.07.2022",
-        "endDate": "09.07.2022",
-        "roles": ["Softwareentwickler"],
-        "description": "Kochanwendungen neu gedacht",
-        "highlights": [
-          "Entwicklung eines alternativen Ansatzes für eine Kochanwendung. Diese ermöglicht es den Benutzern, Rezepte nach Allergien, Zutaten, die enthalten oder nicht enthalten sein sollten, und Ernährungspräferenzen zu filtern.",
-          "Reverse Engineering der bestehenden Plattform \"Chefkoch.de\" und Implementierung eines Web-Scrapers zur Datensammlung, Anreicherung mit zusätzlichen Metainformationen und Speicherung in einer ElasticSearch-Datenbank."
-        ],
-        "keywords": ["Golang", "React", "ElasticSearch"]
-      }
     ],
     "meta": {
       "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",

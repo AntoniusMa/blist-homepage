@@ -13,7 +13,7 @@ Dieser Artikel zeigt, wie ich mit [HUGO](https://gohugo.io/), einem Go-basierten
 
 Seien wir ehrlich, es gibt tonnenweise Frameworks für die Einrichtung statischer Websites. Sie sind in hohem maße Anpasspar, meist auch ohne technischen Hintergrund relativ einfach zu verwenden und es gibt eine viel größere Community um sie. Warum braucht die Welt ein weiteres Framework und warum sollte man es verwenden? Um ehrlich zu sein, habe ich keine gute Erklärung dafür. An einem schönenen Sommertag kam ein ehemaliger Kollege ins Büro und sagte: "Hey, hast du dir mal dieses Go-Framework für statische Websites angesehen, HUGO, man kann alle Inhalte in Markdown schreiben, es ist der hammer, ich werd meine Website damit bauen" ([schaut euch seine seite an](https://schneider-its.net)).
 
-Und das war's auch schon. Ich habe noch nicht mit WordPress gearbeitet, ich bin erfahrener Entwickler, ich kann Websites one schicke Drag-and-Drop Oberflächen erstellen und ich liebe Markdown. Das ist alles, was man braucht, um eine Website mit HUGO zu erstellen, und ich muss sagen, dass es ziemlich viel Spaß gemacht hat, also lasst uns loslegen.
+Und das war's auch schon. Ich habe noch nicht mit WordPress gearbeitet, ich bin erfahrener Entwickler, ich kann Websites ohne schicke Drag-and-Drop Oberflächen erstellen und ich liebe Markdown. Das ist alles, was man braucht, um eine Website mit HUGO zu erstellen, und ich muss sagen, dass es ziemlich viel Spaß gemacht hat, also lasst uns loslegen.
 
 # Voraussetzungen
 
@@ -44,7 +44,6 @@ An dieser Stelle könnt ihr das Repository zu eurem eigenen Git-Versionskontroll
 git submodule add https://github.com/AntoniusMa/blist-hugo-custom.git themes/blist
 ```
 Das Submodul wird in `themes/blist` geklont. Auf die Einzelheiten des Submodules werde ich Schritt für Schritt eingehen während wir unsere Website bearbeiten. Um die Installation abzuschließen, kopiert das `package.json` und das `package-lock.json` File in das Root Verzeichnis und führt folgende Befehle aus:
-
 ```sh
 npm i # install npm dependencies
 npm i -g postcss-cli

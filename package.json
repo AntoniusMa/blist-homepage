@@ -7,20 +7,13 @@
     "not dead"
   ],
   "comments": {
-    "dependencies": {
-      "simple-icons": "github.com/schnerring/hugo-mod-json-resume"
-    },
+    "dependencies": {},
     "devDependencies": {
       "@tailwindcss/typography": "project",
       "autoprefixer": "project",
-      "husky": "github.com/schnerring/hugo-mod-json-resume",
-      "lint-staged": "github.com/schnerring/hugo-mod-json-resume",
-      "markdownlint-cli": "github.com/schnerring/hugo-mod-json-resume",
       "postcss": "project",
       "postcss-cli": "project",
       "postcss-import": "project",
-      "prettier": "github.com/schnerring/hugo-mod-json-resume",
-      "prettier-plugin-go-template": "github.com/schnerring/hugo-mod-json-resume",
       "tailwindcss": "project"
     }
   },
