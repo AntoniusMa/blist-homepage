@@ -37,6 +37,10 @@
     flex-basis: 100%;
 }
 
+.jr-projects__name {
+    flex-basis: 100%
+}
+
 .jr__item {
     border-color: var(--cv-border-color);
     border-top-width: var(--cv-border-width);
@@ -76,21 +80,6 @@
 
 .jr-education__score {
     margin: 0px !important;
-}
-
-/* Because the plugin has no classes and gives id's based on language... */
-#experience,
-#education,
-#projects,
-#skills,
-#languages,
-#erfahrung,
-#ausbildung,
-#projekte,
-#fähigkeiten,
-#sprachen {
-    margin: 0;
-    padding: 5px;
 }
 
 .jr-education__institution,
@@ -188,4 +177,11 @@
 
 .jr-basics__location-city {
     padding-top: 5px;
+}
+
+.jr-projects__entity {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: white;
+    text-decoration: underline;
 }

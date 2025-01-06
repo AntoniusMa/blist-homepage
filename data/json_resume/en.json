@@ -24,6 +24,36 @@
     },
     "work": [
       {
+        "name": "Digital Venture Consultants",
+        "location": "Frankfurt",
+        "position": "Senior Software Engineer",
+        "startDate": "08.01.2024",
+        "endDate": "31.01.2025",
+        "highlights": [
+          "Development and maintenance of a portal for insurance brokers consisting of micro frontends in Angular with Java Spring Boot backend in a microservice architecture",
+          "Refactoring of existing Angular applications to increase future-proofing, maintainability and reusability",
+          "Training internal developers through regular exchanges and presentations on the concepts and technologies used",
+          "Automation of manual testing tasks through E2E testing with Playwright, visual regression testing with Cypress and increased unit test coverage",
+          "Active further development of the product and the quality of the software as part of self-designed innovation sprints"
+        ],
+        "summary": "Digital Venture Consultants are consultants for software development, primarily in the insurance and public sector. In my first project as a freelancer, I worked as a senior full-stack developer together with colleagues from DVC and our end customer to support and further develop a portal for insurance brokers.",
+        "url": "https://dvc.ventures/"
+      },
+      {
+        "name": "INSYS Router Metrics Service",
+        "location": "Regensburg",
+        "position": "Senior Software Engineer",
+        "startDate": "01.05.2024",
+        "endDate": "31.08.2024",
+        "highlights": [
+          "Implementation of a backend service in Go. The service receives metrics from INSYS industrial routers in a proprietary, text-based format via REST, converts and aggregates them and then stores them in a PostgreSQL database",
+          "Application of the TDD method for fully independent implementation of the service and subsequent seamless integration into the existing backend system",
+          "Implementation of a periodic export of the metrics using Prometheus"
+        ],
+        "summary": "INSYS is a medium-sized company based in Regensburg, Germany, that produces industrial routers and sells software solutions for industrial data communication. As part of our collaboration, I implemented and integrated a standalone service into their Go backend application.",
+        "url": "https://www.insys-icom.com/"
+      },
+      {
         "name": "emgenics GmbH.",
         "location": "Regensburg, Germany",
         "position": "Project- and Tech-lead",
