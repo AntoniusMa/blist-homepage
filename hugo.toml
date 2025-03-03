@@ -12,7 +12,7 @@ DefaultContentLanguageInSubdir = true
     languageName = "English"
     [languages.en.params]
       introTitle = "Hey! I'm Antonius"
-      introSubtitle = "29 y/o DevOps engineer and passionate software developer. My principles: Stay on top of the game, share your knowledge and work on your customer's future as if it were yours."
+      introSubtitle = "30 y/o DevOps engineer and passionate software developer. My principles: Stay on top of the game, share your knowledge and work on your customer's future as if it were yours."
       searchBar = "Search"
       searchBarPlaceholder = "Enter search query"
       searchBarResults = "Results"
@@ -20,27 +20,19 @@ DefaultContentLanguageInSubdir = true
       searchBarNoResults2 = "Try adjusting your search query"
     [languages.en.params.homepage.social]
         title = "Follow me"
-        description = "I share my work in the blog section of this homepage you can find all the code on my public github."
-    [[languages.en.menu.main]]
-        name = "Blog"
-        url = "blog"
-        weight = 1
+        description = "Want to stay in touch, follow me on LinkedIn or GitHub"
     [[languages.en.menu.main]]
         name = "CV"
         url = "cv"
-        weight = 2
-    [[languages.en.menu.main]]
-        name = "Tags"
-        url = "tags"
-        weight = 3
+        weight = 1
     [[languages.en.menu.main]]
         name = "Contact"
         url = "contact"
-        weight = 4
+        weight = 2
     [[languages.en.menu.main]]
         name = "Impress"
         url = "impress"
-        weight = 5
+        weight = 3
 
   [languages.de]
     contentDir = "content/de" # Deutsch
@@ -49,7 +41,7 @@ DefaultContentLanguageInSubdir = true
     title = "AM Cloud Solutions"
     [languages.de.params]
       introTitle = "Hallo! Ich bin Antonius"
-      introSubtitle = "29-jähriger DevOps Engineer und Software-Entwickler aus Leidenschaft. Meine Prinzipien: Bleib am Puls der Zeit, teile dein Wissen und arbeite für die Zukunft der Kunden, als wäre es deine eigene."
+      introSubtitle = "30-jähriger DevOps Engineer und Software-Entwickler aus Leidenschaft. Meine Prinzipien: Bleib am Puls der Zeit, teile dein Wissen und arbeite für die Zukunft der Kunden, als wäre es deine eigene."
       searchBar = "Suche"
       searchBarPlaceholder = "Sucheingabe"
       searchBarResults = "Ergebnisse"
@@ -57,27 +49,19 @@ DefaultContentLanguageInSubdir = true
       searchBarNoResults2 = "Versuche die Suche anzupassen"
     [languages.de.params.homepage.social]
         title = "Folgt mir"
-        description = "Ich präsentiere meine Arbeit in Form der Blogbeiträge auf dieser Seite, ihr findet den Code auf meinem öffentlichen github Account." 
-    [[languages.de.menu.main]]
-        name = "Blog"
-        url = "blog"
-        weight = 1
+        description = "Ihr wollt in Kontakt bleiben? Dann folgt mir auf LinkedIn oder GitHub!" 
     [[languages.de.menu.main]]
         name = "Lebenslauf"
         url = "cv"
-        weight = 2
-    [[languages.de.menu.main]]
-        name = "Tags"
-        url = "tags"
-        weight = 3
+        weight = 1
     [[languages.de.menu.main]]
         name = "Kontakt"
         url = "contact"
-        weight = 4
+        weight = 2
     [[languages.de.menu.main]]
         name = "Impressum"
         url = "impress"
-        weight = 5
+        weight = 3
         
 #   [languages.dy]
 #     contentDir = "content/dy" #Example language
@@ -103,7 +87,6 @@ DefaultContentLanguageInSubdir = true
   # may slowdown the loading of search results
   # Title of page is included by default
   searchKeys = [
-    "tags",
     "date",
     "categories",
     "summary",
